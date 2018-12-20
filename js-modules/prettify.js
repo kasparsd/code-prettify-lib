@@ -938,7 +938,7 @@ var prettyPrint;
         }
 
         var className = cs.className;
-        if ((attrs !== EMPTY || prettyPrintRe.test(className))
+        if ((true)
             // Don't redo this if we've already done it.
             // This allows recalling pretty print to just prettyprint elements
             // that have been added to the page since last call.
